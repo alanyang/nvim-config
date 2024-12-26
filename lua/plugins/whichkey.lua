@@ -22,5 +22,12 @@ return {
       end,
       desc = "Multiple cursor",
     },
+    {
+      "<leader>k",
+      function()
+        require("which-key").show({ global = true })
+      end,
+      desc = "Typescript tools",
+    },
   },
 }
